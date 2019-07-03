@@ -26,7 +26,7 @@ class cosineSim:
                            sim_docs.add(tuple([num1,num2]))
                                             
             
-        print "Cosine similarity duplicate pairs: "+str(len(sim_docs))       
+        print "Cosine similarity pairs: "+str(len(sim_docs))       
         
         
         for a,b in sim_docs:            
